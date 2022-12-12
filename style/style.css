@@ -32,9 +32,11 @@
 }
 
 .row-icons {
+    margin: 0 auto;
+    max-width: 1030px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .register {
@@ -91,9 +93,10 @@ input::placeholder {
 }
 
 .login-fon {
+    width: 70%;
     background-image: url('../login_page_images/login-page-fon.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
     height: 100vh;
 }
