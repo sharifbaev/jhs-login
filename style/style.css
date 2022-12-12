@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Mulish';
+    src: local('Mulish-Bold'),
+    local('Mulish-Regular'),
+    url('/fonts/mulish/Mulish-Bold.woff2') format('woff2'),
+    url('/fonts/mulish/Mulish-Bold.woff') format('woff'),
+    url('/fonts/mulish/Mulish-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter-Medium'),
+    url('/fonts/inter/Inter-Medium.woff2') format('woff2'),
+    url('/fonts/mulish/Mulish-Bold.woff') format('woff'),
+    url('/fonts/inter/Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    margin: 0 auto;
+}
+
+.row-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register {
+    padding: 20px 60px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.register-inputs {
+    max-width: 359px;
+    margin: 0 auto;
+    border: none;
+}
+
+.register-input {
+    width: 359px;
+    max-height: 46px;
+    font-size: 16px;
+    padding: 14px 17px;
+}
+
+input::placeholder {
+    font-size: 14px;
+}
+
+.logo {
+    width: 345px;
+    height: 340px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-buttons {
+    font-size: 18px;
+}
+
+.mr-b-md {
+    margin-bottom: 35px;
+}
+
+.mr-b-sm {
+    margin-bottom: 10px;
+}
+
+.mr-r-esm {
+    margin-right: 8px;
+}
+
+.mr-r-md {
+    margin-right: 20px;
+}
+
+.login-fon {
+    background-image: url('../login_page_images/login-page-fon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.login-fon__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.system-icon {
+    width: 12%;
+    max-width: 120px;
+    max-height: 120px;
+    margin-right: 20px;
+}
+
+.system-icon:first-child {
+    margin-left: 20px;
+}
+
+.column {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.btn {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-color-white {
+    color: #fff;
+}
+
+.primary {
+    background-color: #1a47a1;
+}
+
+.inner-container {
+    height: 100%;
+}
+.login__header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.system-icons {
+    margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .login-fon {
+        display: none;
+    }
+}
