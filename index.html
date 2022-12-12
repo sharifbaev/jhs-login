@@ -42,17 +42,21 @@
                         <input class="register-input mr-b-md" type="password" placeholder="Parolni kiriting"/>
                     </label>
                     <div class="register-checkboxes mr-b-md">
-                        <div class="row mr-b-sm">
-                            <input type="checkbox" class="mr-r-esm"/>
-                            <p>Elektron kalit</p>
+                        <div class="row mr-b-sm form-check">
+                            <input id="elec-key" type="checkbox" class="mr-r-esm form-check-input"/>
+                            <label class="form-check-label ml-3" for="elec-key">
+                                Elektron kalit
+                            </label>
                         </div>
-                        <div class="row">
-                            <input type="checkbox" class="mr-r-esm"/>
-                            <p>Biometrik identifikatsiya</p>
+                        <div class="row form-check">
+                            <input id="bio" type="checkbox" class="mr-r-esm form-check-input"/>
+                            <label class="form-check-label ml-3" for="bio">
+                                Biometrik identifikatsiya
+                            </label>
                         </div>
                     </div>
                     <div class="row register-buttons">
-                        <button class="btn mr-r-md primary text-color-white">Kirish</button>
+                        <button class="btn mr-r-md primary">Kirish</button>
                         <button class="btn">Brauzerni yuklab olish</button>
                     </div>
                 </form>
