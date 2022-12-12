@@ -39,6 +39,10 @@
     justify-content: space-around;
 }
 
+label p {
+    margin-bottom: 8px;
+}
+
 .register {
     padding: 20px 60px;
     font-family: 'Mulish', sans-serif;
